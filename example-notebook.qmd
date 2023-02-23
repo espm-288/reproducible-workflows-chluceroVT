@@ -2,6 +2,8 @@
 title: "example-notebook.qmd"
 format: html
 editor: visual
+editor_options: 
+  chunk_output_type: console
 ---
 
 
@@ -10,3 +12,8 @@ library(tidyverse)
 
 mtcars |> ggplot(aes(cyl, mpg)) + geom_point()
 ```
+
+
+
+
+
